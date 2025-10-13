@@ -3495,6 +3495,8 @@ input, select, textarea {
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
+			background-color: #000000;
+			box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
 		}
 
 			#banner .content header {
