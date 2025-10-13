@@ -3442,7 +3442,7 @@ input, select, textarea {
 	}
 
 	body.landing #header {
-		background: transparent;
+		background-color: #000000;
 		box-shadow: none;
 		position: absolute;
 	}
