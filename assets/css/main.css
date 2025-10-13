@@ -3490,13 +3490,13 @@ input, select, textarea {
 			display: inline-block;
 			margin-right: 1%;
 			max-width: 95%;
-			padding: 6em;
+			padding: 2em;
 			position: relative;
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
 			background-color: #000000;
-			box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+			box-shadow: 0 0 40px 20px rgba(0, 0, 0, 1);
 		}
 
 			#banner .content header {
