@@ -593,7 +593,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #1c1d26;
+			background: #01547A;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3451,7 +3451,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
+		background-color: #01547A;
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
