@@ -3202,6 +3202,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: url("../../images/tutoring_background.jpg");
+			background-attachment: fixed;
 		}
 
 		.wrapper.style2 {
