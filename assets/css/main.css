@@ -3454,91 +3454,6 @@ input, select, textarea {
 		position: absolute;
 	}
 
-<!-- #me -->
-
-	#me {
-		background-attachment: fixed;
-		background-color: #000000;
-		background-image: url("../../images/banner.jpg");
-		background-position: center center;
-		background-size: cover;
-		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 100vh;
-		position: relative;
-		text-align: center;
-		z-index: 21;
-	}
-	
-			#me:before  {
-			content: '';
-			display: inline-block;
-			height: 100vh;
-			vertical-align: middle;
-			width: 1%;
-		}
-	
-			#me:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
-	
-			#me .content {
-			display: inline-block;
-			margin-right: 1%;
-			max-width: 95%;
-			padding: 2em;
-			position: relative;
-			text-align: right;
-			vertical-align: middle;
-			z-index: 1;
-			background-color: #000000;
-			box-shadow: 0 0 60px 30px rgba(0, 0, 0, 1);
-		}
-	
-				#me .content header {
-				display: inline-block;
-				vertical-align: middle;
-			}
-
-	
-					#me .content header h2 {
-					font-size: 2.5em;
-					margin: 0;
-				}
-	
-					#me .content header p {
-						margin: 0.5em 0 0 0;
-						top: 0;
-					}
-	
-				#me .content .image {
-					border-radius: 100%;
-					display: inline-block;
-					height: 18em;
-					margin-left: 3em;
-					vertical-align: middle;
-					width: 18em;
-				}
-	
-					#me .content .image img {
-						border-radius: 100%;
-						display: block;
-						width: 100%;
-					}
-	
-		body.is-touch #me {
-			background-attachment: scroll;
-		}
-
 /* Banner */
 
 	#banner {
@@ -3755,9 +3670,6 @@ input, select, textarea {
 				padding: 4.5em;
 			}
 
-			#me .content {
-					padding: 4.5em;
-				}
 
 		/* Footer */
 
@@ -3829,28 +3741,7 @@ input, select, textarea {
 			}
 
 
-		#me {
-				background-attachment: scroll;
-			}
-
-				#me .goto-next {
-					height: 7em;
-				}
-
-				#me .content {
-					padding: 9em 0;
-					text-align: center;
-				}
-
-					#me .content header {
-						display: block;
-						margin: 0 0 2em 0;
-						text-align: center;
-					}
-
-					#me .content .image {
-						margin: 0;
-					}
+		
 		/* Banner */
 
 			#banner {
@@ -3992,29 +3883,6 @@ input, select, textarea {
 			#header {
 				display: none;
 			}
-
-		#me {
-				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
-				min-height: calc(100vh - 44px);
-			}
-
-				#me:before {
-					height: calc(100vh - 44px);
-				}
-
-				#me .content {
-					padding: 4.0625em 1.5em 4.875em 1.5em;
-				}
-
-					#me .content header h2 {
-						font-size: 1.5em;
-					}
-
-					#me .content .image {
-						height: 9em;
-						width: 9em;
-					}
-
 
 		/* Banner */
 
@@ -4269,9 +4137,7 @@ input, select, textarea {
 				padding: 3em 1.25em 1em 1.25em;
 			}
 
-			#me .content {
-				padding: 3em 1.5625em 5.25em 1.5625em;
-			}
+		
 		/* Banner */
 
 			#banner .content {
