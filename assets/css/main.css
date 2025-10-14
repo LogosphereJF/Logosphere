@@ -3458,7 +3458,6 @@ input, select, textarea {
 
 	#me {
 			background-attachment: fixed;
-			background-color: #000000;
 			background-image: url("../../images/tutoring_background.png");
 			background-position: center center;
 			background-size: cover;
@@ -3502,6 +3501,8 @@ input, select, textarea {
 				text-align: center;
 				vertical-align: middle;
 				z-index: 1;
+				background-color: #000000;
+				box-shadow: 0 0 60px 30px rgba(0, 0, 0, 1);
 			}
 	
 				#me .content header {
@@ -3756,6 +3757,10 @@ input, select, textarea {
 				padding: 4.5em;
 			}
 
+			#me .content {
+					padding: 4.5em;
+				}
+
 		/* Footer */
 
 			#footer {
@@ -3825,6 +3830,29 @@ input, select, textarea {
 				padding: 4.5em 2.5em 2.5em 2.5em;
 			}
 
+
+		#me {
+				background-attachment: scroll;
+			}
+
+				#me .goto-next {
+					height: 7em;
+				}
+
+				#me .content {
+					padding: 9em 0;
+					text-align: center;
+				}
+
+					#me .content header {
+						display: block;
+						margin: 0 0 2em 0;
+						text-align: center;
+					}
+
+					#me .content .image {
+						margin: 0;
+					}
 		/* Banner */
 
 			#banner {
@@ -3966,6 +3994,29 @@ input, select, textarea {
 			#header {
 				display: none;
 			}
+
+		#me {
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: calc(100vh - 44px);
+			}
+
+				#me:before {
+					height: calc(100vh - 44px);
+				}
+
+				#me .content {
+					padding: 4.0625em 1.5em 4.875em 1.5em;
+				}
+
+					#me .content header h2 {
+						font-size: 1.5em;
+					}
+
+					#me .content .image {
+						height: 9em;
+						width: 9em;
+					}
+
 
 		/* Banner */
 
@@ -4220,6 +4271,9 @@ input, select, textarea {
 				padding: 3em 1.25em 1em 1.25em;
 			}
 
+			#me .content {
+				padding: 3em 1.5625em 5.25em 1.5625em;
+			}
 		/* Banner */
 
 			#banner .content {
