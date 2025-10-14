@@ -3598,6 +3598,26 @@ input, select, textarea {
 					color: inherit;
 				}
 
+			img.tutor-portrait {
+				width: 60%;
+				display: block;
+				margin: 0 auto 2em auto;
+				
+				/* Fades out on all sides */
+				-webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+									linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+				-webkit-mask-composite: intersect;
+				mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+							 linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+				mask-composite: intersect;
+			
+				/* Smooth edges */
+				-webkit-mask-repeat: no-repeat;
+				mask-repeat: no-repeat;
+				-webkit-mask-size: 100% 100%;
+				mask-size: 100% 100%;
+			}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3752,6 +3772,26 @@ input, select, textarea {
 			#footer {
 				padding: 4.5em 0;
 			}
+
+			img.tutor-portrait {
+			width: 70%;
+			display: block;
+			margin: 0 auto 2em auto;
+			
+			/* Fades out on all sides */
+			-webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+								linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+			-webkit-mask-composite: intersect;
+			mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+						 linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+			mask-composite: intersect;
+		
+			/* Smooth edges */
+			-webkit-mask-repeat: no-repeat;
+			mask-repeat: no-repeat;
+			-webkit-mask-size: 100% 100%;
+			mask-size: 100% 100%;
+		}
 
 	}
 
@@ -4122,44 +4162,3 @@ input, select, textarea {
 
 	}
 
-img.tutor-portrait {
-	width: 60%;
-	display: block;
-	margin: 0 auto 2em auto;
-	
-	/* Fades out on all sides */
-	-webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
-						linear-gradient(to right, transparent, black 15%, black 85%, transparent);
-	-webkit-mask-composite: intersect;
-	mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
-				 linear-gradient(to right, transparent, black 15%, black 85%, transparent);
-	mask-composite: intersect;
-
-	/* Smooth edges */
-	-webkit-mask-repeat: no-repeat;
-	mask-repeat: no-repeat;
-	-webkit-mask-size: 100% 100%;
-	mask-size: 100% 100%;
-}
-
-@media screen and (max-width: 736px) {
-	img.tutor-portrait {
-	width: 70%;
-	display: block;
-	margin: 0 auto 2em auto;
-	
-	/* Fades out on all sides */
-	-webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
-						linear-gradient(to right, transparent, black 15%, black 85%, transparent);
-	-webkit-mask-composite: intersect;
-	mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
-				 linear-gradient(to right, transparent, black 15%, black 85%, transparent);
-	mask-composite: intersect;
-
-	/* Smooth edges */
-	-webkit-mask-repeat: no-repeat;
-	mask-repeat: no-repeat;
-	-webkit-mask-size: 100% 100%;
-	mask-size: 100% 100%;
-}
-}
