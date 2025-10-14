@@ -3506,17 +3506,43 @@ input, select, textarea {
 			box-shadow: 0 0 60px 30px rgba(0, 0, 0, 1);
 		}
 
+		#banner .content1 {
+			display: inline-block;
+			margin-right: 1%; 
+			max-width: 95%; 
+			padding: 6em;
+			position: relative;
+			text-align: center;
+			vertical-align: middle;
+			z-index: 1; 
+		}
+
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
 			}
 
-				#banner .content header h2 {
-					font-size: 2.5em;
-					margin: 0;
-				}
+			#banner .content1 header {
+				display: inline-block;
+				vertical-align: middle;
+			}
 
-				#banner .content header p {
+			#banner .content header h2 {
+				font-size: 2.5em;
+				margin: 0;
+			}
+
+			#banner .content1 header h2 {
+				font-size: 2.5em;
+				margin: 0;
+			}
+
+			#banner .content header p {
+				margin: 0.5em 0 0 0;
+				top: 0;
+			}
+
+			#banner .content1 header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
 				}
