@@ -3205,7 +3205,6 @@ input, select, textarea {
 			background-attachment: fixed;
 			background-size: cover;
 			background-repeat: no-repeat;
-			font-size: 1.3em;
 		}
 
 		.wrapper.style2 {
@@ -3625,7 +3624,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 15pt;
 			}
 
 	}
