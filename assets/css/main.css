@@ -3458,6 +3458,7 @@ input, select, textarea {
 
 	#me {
 			background-attachment: fixed;
+			background-color: #000000;
 			background-image: url("../../images/tutoring_background.png");
 			background-position: center center;
 			background-size: cover;
