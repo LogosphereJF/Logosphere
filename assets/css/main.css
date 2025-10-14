@@ -3506,23 +3506,7 @@ input, select, textarea {
 			box-shadow: 0 0 60px 30px rgba(0, 0, 0, 1);
 		}
 
-		#banner .content1 {
-			display: inline-block;
-			margin-right: 1%; 
-			max-width: 95%; 
-			padding: 6em;
-			position: relative;
-			text-align: center;
-			vertical-align: middle;
-			z-index: 1; 
-		}
-
 			#banner .content header {
-				display: inline-block;
-				vertical-align: middle;
-			}
-
-			#banner .content1 header {
 				display: inline-block;
 				vertical-align: middle;
 			}
@@ -3532,20 +3516,11 @@ input, select, textarea {
 				margin: 0;
 			}
 
-			#banner .content1 header h2 {
-				font-size: 2.5em;
-				margin: 0;
-			}
 
 			#banner .content header p {
 				margin: 0.5em 0 0 0;
 				top: 0;
 			}
-
-			#banner .content1 header p {
-					margin: 0.5em 0 0 0;
-					top: 0;
-				}
 
 			#banner .content .image {
 				border-radius: 100%;
@@ -3694,7 +3669,7 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner .content .content1 {
+			#banner .content  {
 				padding: 4.5em;
 			}
 
@@ -3779,18 +3754,18 @@ input, select, textarea {
 					height: 7em;
 				}
 
-				#banner .content .content1 {
+				#banner .content   {
 					padding: 9em 0;
 					text-align: center;
 				}
 
-					#banner .content .content1 header {
+					#banner .content   header {
 						display: block;
 						margin: 0 0 2em 0;
 						text-align: center;
 					}
 
-					#banner .content .content1 .image {
+					#banner .content   .image {
 						margin: 0;
 					}
 
@@ -3922,15 +3897,15 @@ input, select, textarea {
 					height: calc(100vh - 44px);
 				}
 
-				#banner .content .content1 {
+				#banner .content   {
 					padding: 4.0625em 1.5em 4.875em 1.5em;
 				}
 
-					#banner .content .content1 header h2 {
+					#banner .content   header h2 {
 						font-size: 1.5em;
 					}
 
-					#banner .content .content1 .image {
+					#banner .content   .image {
 						height: 9em;
 						width: 9em;
 					}
@@ -4167,7 +4142,7 @@ input, select, textarea {
 		
 		/* Banner */
 
-			#banner .content .content1 {
+			#banner .content   {
 				padding: 3em 1.5625em 5.25em 1.5625em;
 			}
 
