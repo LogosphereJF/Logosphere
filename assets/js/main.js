@@ -247,4 +247,10 @@
 		$banner
 			._parallax();
 
+	// me.
+		var $me = $('#me');
+
+		$me
+			._parallax();
+
 })(jQuery);
