@@ -3618,6 +3618,16 @@ input, select, textarea {
 				mask-size: 100% 100%;
 			}
 
+			.about-lesson {
+			  text-align: center; /* default for mobile */
+			}
+			
+			@media (min-width: 769px) {
+			  .about-lesson {
+			    text-align: right; /* only on desktop */
+			  }
+			}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
