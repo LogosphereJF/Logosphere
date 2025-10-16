@@ -3601,7 +3601,7 @@ input, select, textarea {
 			img.tutor-portrait {
 				width: 60%;
 				display: block;
-				margin: 0 auto 2em auto;
+				margin: 0 auto 1em auto;
 				
 				/* Fades out on all sides */
 				-webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
