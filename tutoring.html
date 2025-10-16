@@ -52,7 +52,12 @@
 					<div class="content" style="background-color: transparent; box-shadow: none;">
 						<header>
 							<center><h2>Hi! My name is Jacob.</h2></center>
-							<img src="images/tutor_portrait.jpg" class="tutor-portrait"/>
+							 <picture>
+						        <!-- Show wide image on screens wider than 768px -->
+						        <source srcset="images/tutor_portrait_wide.jpg" media="(min-width: 769px)">
+						        <!-- Fallback for mobile and older browsers -->
+						        <img src="images/tutor_portrait.jpg" class="tutor-portrait" alt="Tutor Portrait">
+						      </picture>
 							<center>
 								<p>I am an active researcher with degrees in Pure Mathematics and Theoretical Physics.<br/>
 								I have 7 years of experience in online tutoring.</p>
