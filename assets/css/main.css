@@ -3601,14 +3601,14 @@ input, select, textarea {
 			img.tutor-portrait {
 				width: 60%;
 				display: block;
-				margin: 0 auto 1em auto;
+				margin: 0 auto 2em auto;
 				
 				/* Fades out on all sides */
-				-webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
-									linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+				-webkit-mask-image: linear-gradient(to bottom, transparent, black 7%, black 93%, transparent),
+									linear-gradient(to right, transparent, black 7%, black 93%, transparent);
 				-webkit-mask-composite: intersect;
-				mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
-							 linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+				mask-image: linear-gradient(to bottom, transparent, black 7%, black 93%, transparent),
+							 linear-gradient(to right, transparent, black 7%, black 93%, transparent);
 				mask-composite: intersect;
 			
 				/* Smooth edges */
