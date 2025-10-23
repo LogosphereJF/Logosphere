@@ -248,3 +248,17 @@
 			._parallax();
 
 })(jQuery);
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const dropdowns = document.querySelectorAll('#nav .dropdown > .toggle');
+
+  dropdowns.forEach(dropdown => {
+    dropdown.addEventListener('click', function(e) {
+      e.preventDefault();
+      this.parentElement.classList.toggle('open');
+    });
+  });
+});
+</script>
