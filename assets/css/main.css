@@ -3632,28 +3632,6 @@ input, select, textarea {
 			  }
 			}
 
-			#nav .submenu {
-			  display: none;
-			  list-style: none;
-			  padding-left: 1em;
-			  margin: 0;
-			}
-			
-			/* When active */
-			#nav .dropdown.open > .submenu {
-			  display: block;
-			}
-			
-			/* Optional: visual hint */
-			#nav .dropdown > .toggle::after {
-			  content: " ▼";
-			  font-size: 0.7em;
-			}
-			#nav .dropdown.open > .toggle::after {
-			  content: " ▲";
-			}
-
-
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
